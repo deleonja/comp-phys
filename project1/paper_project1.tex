@@ -1,0 +1,64 @@
+\documentclass[11pt,letterpaper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{José Alfredo de León}
+\title{Proyecto 1}
+\begin{document}
+\maketitle
+
+\chapter{Conjetura de Goldbach}
+
+\abstractname{Qué pedo cachorros.}
+Realicé una implementación computacional en FORTRAN para verificar la conjetura de Goldbach y también para calcular el número de representaciones como suma de dos o tres primos del número 4 y de todos los números enteros mayores a 5. 
+
+\section{Introducción}
+Christian Goldbach y Leonhard Euler mantuvieron comunicación recurrente por medio de correspondencia. En una carta enviada el 7 de junio de 1742 Goldbach le escribió a Euler el siguiente enunciado: $"$\textit{Todo número puede ser descompuesto en una suma de un número arbitrario de primos.}". Euler entonces lo redujo a la siguiente conjetura: \textit{Todo entero positivo puede expresarse como suma de, como mucho, tres números primos}. \\
+
+En la actualidad, la conjetura se ha dividido en dos:
+\begin{enumerate}
+	\item La conjetura débil de Goldbach: todo entero impar mayor que 5 puede escribirse como suma de tres números primos.
+	\item La conjetura fuerte de Goldbach: todo entero par mayor que 2 puede expresarse como suma de dos números primos. 
+\end{enumerate}
+La conjetura fuerte implica la débil. Sin embargo, en los casi 300 años que han pasado desde que Goldbach enunció su conjetura, los matemáticos no han podido encontrar una demostración de la misma. En 2013, el matemático peruano Harald Helgfott demostró la conjetura débil. En lo que respecta a la conjetura fuerte únicamente se ha conseguido verificar computacionalmente todos los números pares menores a $4\times 10^{18}$.
+
+\section{Descripción del método}
+Algoritmo a seguir:
+\begin{enumerate}
+	\item Crear una lista con todos los números primos menores o iguales a $n$.
+	\item Verificar cuáles sumas de entre los elementos de la lista de números primos da igual a $n$.
+\end{enumerate}
+
+\section{Implementación}
+
+\section{Resultados y discusión de resultados}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=16cm]{graph_rendimiento_goldbach}
+	\label{graph:rendimiento_goldbach}
+	\caption{Rendimiento del programa para verificar la Conjetura de Goldbach.}
+\end{figure}
+
+\section{Conclusiones}
+
+
+\chapter{Conjetura de Goldbach}
+
+\abstractname{Qué pedo cachorros.}
+
+\section{Introducción}
+
+\section{Descripción del método}
+
+\section{Implementación}
+
+\section{Resultados y discusión de resultados}
+
+\section{Conclusiones}
+\end{document}
